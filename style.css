@@ -1,0 +1,77 @@
+body {
+    background-color: black;
+   
+}
+.app{
+    background-color:cornflowerblue;
+    opacity:.8;
+    color: white;
+    width:50%;
+    height:450px;
+    margin: 10% auto;
+    border:2px solid white;
+  
+    
+}
+
+.title {
+       font-size: 3em;
+}
+
+.display {
+    text-align: center;
+    margin: 2% auto;
+    padding: 0px 5px 0 0;
+    font-size: 2em;
+   
+}
+
+.temperature{
+    margin-top:20px;
+   
+}
+.degree-celcius{
+    font-size: 1.5em;
+    display: none;
+}
+.degree-c{
+    font-size: 1.5em;
+    display: none;
+}
+.temperature span,
+.temperature a {
+   
+    font-size: 2.5em;
+}
+
+a{
+    color:white;
+}
+a:hover {
+    cursor: pointer;
+    text-decoration: none;
+    color:white;
+}
+
+* {
+    outline: none;
+    user-select: none;
+}
+
+.tempertext {
+    font-size: 1.5em;
+}
+
+.details {
+    margin: 1% auto;
+  
+}
+
+.details img {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    display: none;
+}
+
+
